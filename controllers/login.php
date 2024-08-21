@@ -17,6 +17,8 @@
         
         session_start();
 
+        unset($log[0]['senha']);
+
         $_SESSION[md5("user_data")] = $log;
 
         header("location: ../index.php");

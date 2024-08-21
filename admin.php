@@ -16,6 +16,8 @@
     include_once 'models/validate.php';
     include_once 'models/alerts.php';
 
+    $userData = $_SESSION[md5('user_data')];
+
     function pageContent(){
         validate();
     }

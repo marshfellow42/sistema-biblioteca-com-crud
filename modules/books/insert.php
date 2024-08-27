@@ -29,11 +29,11 @@
                 <label for="classificacao">Classificação</label>
                 <select required class="form-control" id="classificacao" name="classificacao">
                     <option value="Livre">Livre</option>
-                    <option value="NR10">NR10</option>
-                    <option value="NR12">NR12</option>
-                    <option value="NR14">NR14</option>
-                    <option value="NR16">NR16</option>
-                    <option value="NR18">NR18</option>
+                    <option value="+10">+10</option>
+                    <option value="+12">+12</option>
+                    <option value="+14">+14</option>
+                    <option value="+16">+16</option>
+                    <option value="+18">+18</option>
                 </select>
             </div>
 

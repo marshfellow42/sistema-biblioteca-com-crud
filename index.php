@@ -1,5 +1,11 @@
 <?php
 
+    $folderPath = 'assets/img/books';
+
+    if (!is_dir($folderPath)) {
+        mkdir($folderPath, 0777, true);
+    }
+
     session_start();
     
     if (isset($_SESSION[md5("user_data")])) {

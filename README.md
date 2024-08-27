@@ -12,6 +12,6 @@ Esse website, por conta de ser feito em PHP, só pode ser rodado em um servidor 
 
 Para conseguir acessar o website, você precisa de um banco de dados MySQL (ou MariaDB).
 
-E nesse banco precisa ter um database e dentro dele precisa ter 4 tabelas. Essas tabelas estão dentro de `documentation/database.sql`.
+E nesse banco precisa ter um database e dentro dele precisa ter 2 tabelas. Essas tabelas estão dentro de `documentation/database.sql`.
 
 Você pode mudar o nome do database em `models/connect.php`.

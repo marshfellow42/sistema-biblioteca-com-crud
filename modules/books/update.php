@@ -30,10 +30,10 @@
                 <select required class="form-control" id="classificacao" name="classificacao">
                     <?php $selected_value = $book['classificacao']?>
                     <option value="livre" <?php if ($selected_value == 'livre') echo 'selected'; ?>>Livre</option>
-                    <option value="NR12" <?php if ($selected_value == 'NR12') echo 'selected'; ?>>NR12</option>
-                    <option value="NR14" <?php if ($selected_value == 'NR14') echo 'selected'; ?>>NR14</option>
-                    <option value="NR16" <?php if ($selected_value == 'NR16') echo 'selected'; ?>>NR16</option>
-                    <option value="NR18" <?php if ($selected_value == 'NR18') echo 'selected'; ?>>NR18</option>
+                    <option value="+12" <?php if ($selected_value == '+12') echo 'selected'; ?>>+12</option>
+                    <option value="+14" <?php if ($selected_value == '+14') echo 'selected'; ?>>+14</option>
+                    <option value="+16" <?php if ($selected_value == '+16') echo 'selected'; ?>>+16</option>
+                    <option value="+18" <?php if ($selected_value == '+18') echo 'selected'; ?>>+18</option>
                 </select>
             </div>
             <div class="form-group col-md-4">

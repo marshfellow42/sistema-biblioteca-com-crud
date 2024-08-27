@@ -1,3 +1,9 @@
+<style>
+    html {
+        overflow: hidden; /* This prevents scrolling past the content */
+    }
+</style>
+
 <?php include_once 'head.php';?>
 
 <body id="page-top">
@@ -31,3 +37,16 @@
             <!-- End of Main Content -->
 
             <?php include_once 'footer.php';?>
+
+            <script>
+                // Select the toggle button and the sidebar
+                const sidebarToggleTop = document.getElementById('sidebarToggleTop');
+                const accordionSidebar = document.getElementById('accordionSidebar');
+
+                // Add an event listener to the toggle button
+                sidebarToggleTop.addEventListener('click', function () {
+                    // Toggle the d-none class on the sidebar
+                    accordionSidebar.classList.toggle('d-none');
+                });
+
+            </script>
